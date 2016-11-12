@@ -514,6 +514,7 @@
 				81B597901DD78BD00002F8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81B597911DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				81B597931DD78BD00002F8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81B597941DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				81B597961DD78BD00002F8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
