@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B5976A1DD78BD00002F8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B597691DD78BD00002F8BA /* AppDelegate.swift */; };
+		81B5976C1DD78BD00002F8BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5976B1DD78BD00002F8BA /* ViewController.swift */; };
+		81B5976F1DD78BD00002F8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B5976D1DD78BD00002F8BA /* Main.storyboard */; };
+		81B597711DD78BD00002F8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B597701DD78BD00002F8BA /* Assets.xcassets */; };
+		81B597741DD78BD00002F8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B597721DD78BD00002F8BA /* LaunchScreen.storyboard */; };
+		81B5977F1DD78BD00002F8BA /* FaithGameIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5977E1DD78BD00002F8BA /* FaithGameIOSTests.swift */; };
+		81B5978A1DD78BD00002F8BA /* FaithGameIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B597891DD78BD00002F8BA /* FaithGameIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B5977B1DD78BD00002F8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B5975E1DD78BD00002F8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B597651DD78BD00002F8BA;
+			remoteInfo = FaithGameIOS;
+		};
+		81B597861DD78BD00002F8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B5975E1DD78BD00002F8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B597651DD78BD00002F8BA;
+			remoteInfo = FaithGameIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B597661DD78BD00002F8BA /* FaithGameIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaithGameIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B597691DD78BD00002F8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B5976B1DD78BD00002F8BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B5976E1DD78BD00002F8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B597701DD78BD00002F8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B597731DD78BD00002F8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B597751DD78BD00002F8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B5977A1DD78BD00002F8BA /* FaithGameIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaithGameIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B5977E1DD78BD00002F8BA /* FaithGameIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithGameIOSTests.swift; sourceTree = "<group>"; };
+		81B597801DD78BD00002F8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B597851DD78BD00002F8BA /* FaithGameIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaithGameIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B597891DD78BD00002F8BA /* FaithGameIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithGameIOSUITests.swift; sourceTree = "<group>"; };
+		81B5978B1DD78BD00002F8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B597631DD78BD00002F8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B597771DD78BD00002F8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B597821DD78BD00002F8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B5975D1DD78BD00002F8BA = {
+			isa = PBXGroup;
+			children = (
+				81B597681DD78BD00002F8BA /* FaithGameIOS */,
+				81B5977D1DD78BD00002F8BA /* FaithGameIOSTests */,
+				81B597881DD78BD00002F8BA /* FaithGameIOSUITests */,
+				81B597671DD78BD00002F8BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B597671DD78BD00002F8BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B597661DD78BD00002F8BA /* FaithGameIOS.app */,
+				81B5977A1DD78BD00002F8BA /* FaithGameIOSTests.xctest */,
+				81B597851DD78BD00002F8BA /* FaithGameIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B597681DD78BD00002F8BA /* FaithGameIOS */ = {
+			isa = PBXGroup;
+			children = (
+				81B597691DD78BD00002F8BA /* AppDelegate.swift */,
+				81B5976B1DD78BD00002F8BA /* ViewController.swift */,
+				81B5976D1DD78BD00002F8BA /* Main.storyboard */,
+				81B597701DD78BD00002F8BA /* Assets.xcassets */,
+				81B597721DD78BD00002F8BA /* LaunchScreen.storyboard */,
+				81B597751DD78BD00002F8BA /* Info.plist */,
+			);
+			path = FaithGameIOS;
+			sourceTree = "<group>";
+		};
+		81B5977D1DD78BD00002F8BA /* FaithGameIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B5977E1DD78BD00002F8BA /* FaithGameIOSTests.swift */,
+				81B597801DD78BD00002F8BA /* Info.plist */,
+			);
+			path = FaithGameIOSTests;
+			sourceTree = "<group>";
+		};
+		81B597881DD78BD00002F8BA /* FaithGameIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B597891DD78BD00002F8BA /* FaithGameIOSUITests.swift */,
+				81B5978B1DD78BD00002F8BA /* Info.plist */,
+			);
+			path = FaithGameIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B597651DD78BD00002F8BA /* FaithGameIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B5978E1DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOS" */;
+			buildPhases = (
+				81B597621DD78BD00002F8BA /* Sources */,
+				81B597631DD78BD00002F8BA /* Frameworks */,
+				81B597641DD78BD00002F8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaithGameIOS;
+			productName = FaithGameIOS;
+			productReference = 81B597661DD78BD00002F8BA /* FaithGameIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B597791DD78BD00002F8BA /* FaithGameIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B597911DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOSTests" */;
+			buildPhases = (
+				81B597761DD78BD00002F8BA /* Sources */,
+				81B597771DD78BD00002F8BA /* Frameworks */,
+				81B597781DD78BD00002F8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B5977C1DD78BD00002F8BA /* PBXTargetDependency */,
+			);
+			name = FaithGameIOSTests;
+			productName = FaithGameIOSTests;
+			productReference = 81B5977A1DD78BD00002F8BA /* FaithGameIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B597841DD78BD00002F8BA /* FaithGameIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B597941DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOSUITests" */;
+			buildPhases = (
+				81B597811DD78BD00002F8BA /* Sources */,
+				81B597821DD78BD00002F8BA /* Frameworks */,
+				81B597831DD78BD00002F8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B597871DD78BD00002F8BA /* PBXTargetDependency */,
+			);
+			name = FaithGameIOSUITests;
+			productName = FaithGameIOSUITests;
+			productReference = 81B597851DD78BD00002F8BA /* FaithGameIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B5975E1DD78BD00002F8BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jonas Voland";
+				TargetAttributes = {
+					81B597651DD78BD00002F8BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6N69JK5Y6P;
+						ProvisioningStyle = Automatic;
+					};
+					81B597791DD78BD00002F8BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6N69JK5Y6P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B597651DD78BD00002F8BA;
+					};
+					81B597841DD78BD00002F8BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6N69JK5Y6P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B597651DD78BD00002F8BA;
+					};
+				};
+			};
+			buildConfigurationList = 81B597611DD78BD00002F8BA /* Build configuration list for PBXProject "FaithGameIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B5975D1DD78BD00002F8BA;
+			productRefGroup = 81B597671DD78BD00002F8BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B597651DD78BD00002F8BA /* FaithGameIOS */,
+				81B597791DD78BD00002F8BA /* FaithGameIOSTests */,
+				81B597841DD78BD00002F8BA /* FaithGameIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B597641DD78BD00002F8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B597741DD78BD00002F8BA /* LaunchScreen.storyboard in Resources */,
+				81B597711DD78BD00002F8BA /* Assets.xcassets in Resources */,
+				81B5976F1DD78BD00002F8BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B597781DD78BD00002F8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B597831DD78BD00002F8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B597621DD78BD00002F8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B5976C1DD78BD00002F8BA /* ViewController.swift in Sources */,
+				81B5976A1DD78BD00002F8BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B597761DD78BD00002F8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B5977F1DD78BD00002F8BA /* FaithGameIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B597811DD78BD00002F8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B5978A1DD78BD00002F8BA /* FaithGameIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B5977C1DD78BD00002F8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B597651DD78BD00002F8BA /* FaithGameIOS */;
+			targetProxy = 81B5977B1DD78BD00002F8BA /* PBXContainerItemProxy */;
+		};
+		81B597871DD78BD00002F8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B597651DD78BD00002F8BA /* FaithGameIOS */;
+			targetProxy = 81B597861DD78BD00002F8BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B5976D1DD78BD00002F8BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B5976E1DD78BD00002F8BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B597721DD78BD00002F8BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B597731DD78BD00002F8BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B5978C1DD78BD00002F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B5978D1DD78BD00002F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B5978F1DD78BD00002F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				INFOPLIST_FILE = FaithGameIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81B597901DD78BD00002F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				INFOPLIST_FILE = FaithGameIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81B597921DD78BD00002F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				INFOPLIST_FILE = FaithGameIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaithGameIOS.app/FaithGameIOS";
+			};
+			name = Debug;
+		};
+		81B597931DD78BD00002F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				INFOPLIST_FILE = FaithGameIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaithGameIOS.app/FaithGameIOS";
+			};
+			name = Release;
+		};
+		81B597951DD78BD00002F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				INFOPLIST_FILE = FaithGameIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FaithGameIOS;
+			};
+			name = Debug;
+		};
+		81B597961DD78BD00002F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				INFOPLIST_FILE = FaithGameIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FaithGameIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B597611DD78BD00002F8BA /* Build configuration list for PBXProject "FaithGameIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B5978C1DD78BD00002F8BA /* Debug */,
+				81B5978D1DD78BD00002F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B5978E1DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B5978F1DD78BD00002F8BA /* Debug */,
+				81B597901DD78BD00002F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B597911DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B597921DD78BD00002F8BA /* Debug */,
+				81B597931DD78BD00002F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B597941DD78BD00002F8BA /* Build configuration list for PBXNativeTarget "FaithGameIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B597951DD78BD00002F8BA /* Debug */,
+				81B597961DD78BD00002F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B5975E1DD78BD00002F8BA /* Project object */;
+}
