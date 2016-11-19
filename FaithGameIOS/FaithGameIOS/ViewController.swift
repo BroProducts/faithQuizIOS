@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var WebView: UIWebView!
-    var urlPath = "http://138.68.71.42:3031/"
+    var urlPath = "http://faithquiz.herokuapp.com"
     
     override func viewDidLoad() {
         super.viewDidLoad()
