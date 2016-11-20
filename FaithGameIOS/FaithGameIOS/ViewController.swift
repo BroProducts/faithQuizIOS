@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var WebView: UIWebView!
+    @IBOutlet weak var webView: UIWebView!
     var urlPath = "http://faithquiz.herokuapp.com"
     
     override func viewDidLoad() {
@@ -26,7 +26,8 @@ class ViewController: UIViewController {
 
     func loadAdressUrl() {
         guard let url =  NSURL(string: urlPath) else { return }
-        WebView.loadRequest(NSURLRequest(url: url as URL) as URLRequest)
+        webView.scrollView.bounces = false
+        webView.loadRequest(NSURLRequest(url: url as URL) as URLRequest)
     }
 
 }
