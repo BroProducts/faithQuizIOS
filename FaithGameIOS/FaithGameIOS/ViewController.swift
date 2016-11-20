@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         guard let url =  NSURL(string: urlPath) else { return }
         webView.loadRequest(NSURLRequest(url: url as URL) as URLRequest)
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return .lightContent
+    }
 
 }
 
