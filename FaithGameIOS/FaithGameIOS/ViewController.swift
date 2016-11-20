@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        webView.scrollView.bounces = false
         loadAdressUrl()
     }
 
@@ -26,7 +27,6 @@ class ViewController: UIViewController {
 
     func loadAdressUrl() {
         guard let url =  NSURL(string: urlPath) else { return }
-        webView.scrollView.bounces = false
         webView.loadRequest(NSURLRequest(url: url as URL) as URLRequest)
     }
 
