@@ -14,6 +14,19 @@
 		81B597741DD78BD00002F8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B597721DD78BD00002F8BA /* LaunchScreen.storyboard */; };
 		81B5977F1DD78BD00002F8BA /* FaithGameIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5977E1DD78BD00002F8BA /* FaithGameIOSTests.swift */; };
 		81B5978A1DD78BD00002F8BA /* FaithGameIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B597891DD78BD00002F8BA /* FaithGameIOSUITests.swift */; };
+		81F031591DE3C14300FE286A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031581DE3C14300FE286A /* GoogleMobileAds.framework */; };
+		81F0315C1DE3C17A00FE286A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0315B1DE3C17A00FE286A /* AdSupport.framework */; };
+		81F0315E1DE3C18500FE286A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0315D1DE3C18500FE286A /* AudioToolbox.framework */; };
+		81F031601DE3C18F00FE286A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0315F1DE3C18F00FE286A /* AVFoundation.framework */; };
+		81F031621DE3C19500FE286A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031611DE3C19500FE286A /* CoreGraphics.framework */; };
+		81F031641DE3C19C00FE286A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031631DE3C19C00FE286A /* CoreMedia.framework */; };
+		81F031661DE3C1A500FE286A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031651DE3C1A500FE286A /* CoreTelephony.framework */; };
+		81F031691DE3C1AE00FE286A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031671DE3C1AE00FE286A /* EventKit.framework */; };
+		81F0316A1DE3C1AE00FE286A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031681DE3C1AE00FE286A /* EventKitUI.framework */; };
+		81F0316C1DE3C1B400FE286A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0316B1DE3C1B400FE286A /* MediaPlayer.framework */; };
+		81F0316E1DE3C1BC00FE286A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0316D1DE3C1BC00FE286A /* MessageUI.framework */; };
+		81F031701DE3C1C100FE286A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0316F1DE3C1C100FE286A /* StoreKit.framework */; };
+		81F031721DE3C1CA00FE286A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031711DE3C1CA00FE286A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		81B597851DD78BD00002F8BA /* FaithGameIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaithGameIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B597891DD78BD00002F8BA /* FaithGameIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithGameIOSUITests.swift; sourceTree = "<group>"; };
 		81B5978B1DD78BD00002F8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F031581DE3C14300FE286A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		81F0315B1DE3C17A00FE286A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		81F0315D1DE3C18500FE286A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81F0315F1DE3C18F00FE286A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81F031611DE3C19500FE286A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81F031631DE3C19C00FE286A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		81F031651DE3C1A500FE286A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		81F031671DE3C1AE00FE286A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		81F031681DE3C1AE00FE286A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		81F0316B1DE3C1B400FE286A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		81F0316D1DE3C1BC00FE286A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		81F0316F1DE3C1C100FE286A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		81F031711DE3C1CA00FE286A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F031721DE3C1CA00FE286A /* SystemConfiguration.framework in Frameworks */,
+				81F031701DE3C1C100FE286A /* StoreKit.framework in Frameworks */,
+				81F0316E1DE3C1BC00FE286A /* MessageUI.framework in Frameworks */,
+				81F0316C1DE3C1B400FE286A /* MediaPlayer.framework in Frameworks */,
+				81F031691DE3C1AE00FE286A /* EventKit.framework in Frameworks */,
+				81F0316A1DE3C1AE00FE286A /* EventKitUI.framework in Frameworks */,
+				81F031661DE3C1A500FE286A /* CoreTelephony.framework in Frameworks */,
+				81F031641DE3C19C00FE286A /* CoreMedia.framework in Frameworks */,
+				81F031621DE3C19500FE286A /* CoreGraphics.framework in Frameworks */,
+				81F031601DE3C18F00FE286A /* AVFoundation.framework in Frameworks */,
+				81F0315E1DE3C18500FE286A /* AudioToolbox.framework in Frameworks */,
+				81F0315C1DE3C17A00FE286A /* AdSupport.framework in Frameworks */,
+				81F031591DE3C14300FE286A /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,7 @@
 				81B5977D1DD78BD00002F8BA /* FaithGameIOSTests */,
 				81B597881DD78BD00002F8BA /* FaithGameIOSUITests */,
 				81B597671DD78BD00002F8BA /* Products */,
+				81F0315A1DE3C17A00FE286A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +137,7 @@
 		81B597681DD78BD00002F8BA /* FaithGameIOS */ = {
 			isa = PBXGroup;
 			children = (
+				81F031571DE3C11D00FE286A /* Admob */,
 				81B597691DD78BD00002F8BA /* AppDelegate.swift */,
 				81B5976B1DD78BD00002F8BA /* ViewController.swift */,
 				81B5976D1DD78BD00002F8BA /* Main.storyboard */,
@@ -123,6 +164,33 @@
 				81B5978B1DD78BD00002F8BA /* Info.plist */,
 			);
 			path = FaithGameIOSUITests;
+			sourceTree = "<group>";
+		};
+		81F031571DE3C11D00FE286A /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				81F031581DE3C14300FE286A /* GoogleMobileAds.framework */,
+			);
+			name = Admob;
+			sourceTree = "<group>";
+		};
+		81F0315A1DE3C17A00FE286A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F031711DE3C1CA00FE286A /* SystemConfiguration.framework */,
+				81F0316F1DE3C1C100FE286A /* StoreKit.framework */,
+				81F0316D1DE3C1BC00FE286A /* MessageUI.framework */,
+				81F0316B1DE3C1B400FE286A /* MediaPlayer.framework */,
+				81F031671DE3C1AE00FE286A /* EventKit.framework */,
+				81F031681DE3C1AE00FE286A /* EventKitUI.framework */,
+				81F031651DE3C1A500FE286A /* CoreTelephony.framework */,
+				81F031631DE3C19C00FE286A /* CoreMedia.framework */,
+				81F031611DE3C19500FE286A /* CoreGraphics.framework */,
+				81F0315F1DE3C18F00FE286A /* AVFoundation.framework */,
+				81F0315D1DE3C18500FE286A /* AudioToolbox.framework */,
+				81F0315B1DE3C17A00FE286A /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +486,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaithGameIOS",
+				);
 				INFOPLIST_FILE = FaithGameIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOS;
@@ -431,6 +503,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6N69JK5Y6P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaithGameIOS",
+				);
 				INFOPLIST_FILE = FaithGameIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.brogamez.FaithGameIOS;

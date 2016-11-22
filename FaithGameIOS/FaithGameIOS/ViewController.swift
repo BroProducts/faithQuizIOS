@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GADBannerViewDelegate {
     
+    @IBOutlet weak var banner: GADBannerView!
     @IBOutlet weak var webView: UIWebView!
     var urlPath = "http://faithquiz.herokuapp.com"
     
@@ -18,6 +20,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         webView.scrollView.bounces = false
         loadAdressUrl()
+        
+        banner.delegate = self
+        
+        banner.adUnitID = "ca-app-pub-7098553841143781/5868832951"
+        banner.rootViewController = self
+        banner.load(GADRequest())
     }
 
     override func didReceiveMemoryWarning() {
