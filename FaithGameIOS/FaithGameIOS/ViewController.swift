@@ -23,7 +23,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         
         banner.delegate = self
         
-        banner.adUnitID = "ca-app-pub-7098553841143781/5868832951"
+        banner.adUnitID = "ca-app-pub-3940256099942544/6300978111"
         banner.rootViewController = self
         banner.load(GADRequest())
     }
