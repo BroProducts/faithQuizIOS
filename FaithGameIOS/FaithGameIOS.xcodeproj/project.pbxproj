@@ -25,7 +25,6 @@
 		81F0316A1DE3C1AE00FE286A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031681DE3C1AE00FE286A /* EventKitUI.framework */; };
 		81F0316C1DE3C1B400FE286A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0316B1DE3C1B400FE286A /* MediaPlayer.framework */; };
 		81F0316E1DE3C1BC00FE286A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0316D1DE3C1BC00FE286A /* MessageUI.framework */; };
-		81F031701DE3C1C100FE286A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0316F1DE3C1C100FE286A /* StoreKit.framework */; };
 		81F031721DE3C1CA00FE286A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F031711DE3C1CA00FE286A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +70,6 @@
 		81F031681DE3C1AE00FE286A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		81F0316B1DE3C1B400FE286A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		81F0316D1DE3C1BC00FE286A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		81F0316F1DE3C1C100FE286A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		81F031711DE3C1CA00FE286A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F031721DE3C1CA00FE286A /* SystemConfiguration.framework in Frameworks */,
-				81F031701DE3C1C100FE286A /* StoreKit.framework in Frameworks */,
 				81F0316E1DE3C1BC00FE286A /* MessageUI.framework in Frameworks */,
 				81F0316C1DE3C1B400FE286A /* MediaPlayer.framework in Frameworks */,
 				81F031691DE3C1AE00FE286A /* EventKit.framework in Frameworks */,
@@ -178,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				81F031711DE3C1CA00FE286A /* SystemConfiguration.framework */,
-				81F0316F1DE3C1C100FE286A /* StoreKit.framework */,
 				81F0316D1DE3C1BC00FE286A /* MessageUI.framework */,
 				81F0316B1DE3C1B400FE286A /* MediaPlayer.framework */,
 				81F031671DE3C1AE00FE286A /* EventKit.framework */,
@@ -263,6 +259,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6N69JK5Y6P;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					81B597791DD78BD00002F8BA = {
 						CreatedOnToolsVersion = 8.0;
@@ -427,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -472,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
